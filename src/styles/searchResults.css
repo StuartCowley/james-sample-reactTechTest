@@ -1,0 +1,7 @@
+.returned-images {
+    height: 20em;
+    width: 20em;
+    display: flex;
+    padding: 5px;
+    border-radius: 5%;
+}
