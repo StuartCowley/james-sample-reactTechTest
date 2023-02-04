@@ -1,9 +1,15 @@
 .App {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
+    background-image: url("https://www.freepik.com/free-photo/vertical-shot-beautiful-starry-sky_11818437.htm#from_view=detail_collection");
+    
 }  
     
 .nasa-logo{
-    height: 500px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
 }

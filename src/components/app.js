@@ -9,7 +9,7 @@ const App = () => {
     <div className="App">
       <img
         className="nasa-logo"
-        src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg"
+        src="https://cdn.cdnlogo.com/logos/n/66/nasa.png"
         alt="nasalogo"
       />
       <SearchComponent setSearchResults={setSearchResults} />

@@ -1,22 +1,29 @@
 import React from "react";
 import "../styles/searchResults.css";
+import PropTypes from "prop-types";
 
-const SearchResults = (results) => {
-  console.log(results);
+const SearchResults = ({ results }) => {
   if (!results.length) {
     return <p>No Results</p>;
   } else {
     return (
-      <>
-        <p>Search Results</p>
-        <img
-          className="returned-images"
-          alt="Search Results"
-          src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        />
-      </>
+      <div className="all-results">
+        {results.map((images) => {
+          return (
+            <img
+              className="returned-images"
+              alt="Search Results"
+              src={images}
+            />
+          );
+        })}
+      </div>
     );
   }
+};
+
+SearchResults.propTypes = {
+  results: PropTypes.array.isRequired,
 };
 
 export default SearchResults;
