@@ -26,6 +26,7 @@
   margin-right: auto;
   width: 70%;
   min-width: 500px;
+  max-width: 2000px;
 }
 
 .search-button:focus {
