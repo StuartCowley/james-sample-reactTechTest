@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders correcty renders a search box 1`] = `
+<DocumentFragment>
+  <input
+    class="search-box"
+    type="text"
+  />
+</DocumentFragment>
+`;
